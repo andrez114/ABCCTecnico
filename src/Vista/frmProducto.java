@@ -68,6 +68,8 @@ public class frmProducto extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTextArea1);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
+        setIconImages(null);
         setMaximumSize(new java.awt.Dimension(111, 111));
         setSize(new java.awt.Dimension(566, 566));
 
@@ -81,7 +83,7 @@ public class frmProducto extends javax.swing.JFrame {
             }
         });
 
-        btnBuscar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        btnBuscar.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         btnBuscar.setText("Buscar");
         btnBuscar.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         btnBuscar.addActionListener(new java.awt.event.ActionListener() {
@@ -144,6 +146,7 @@ public class frmProducto extends javax.swing.JFrame {
             }
         });
 
+        btnTabla.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnTabla.setText("Consultar tabla");
         btnTabla.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -231,9 +234,10 @@ public class frmProducto extends javax.swing.JFrame {
             }
         });
 
-        chkDescontinuado.setFont(new java.awt.Font("Segoe UI", 0, 8)); // NOI18N
+        chkDescontinuado.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
         chkDescontinuado.setText("Descontinuado");
 
+        btnReporte.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnReporte.setText("Generar Reporte");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
